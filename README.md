@@ -1,5 +1,5 @@
 # MusicplayerApp
-Windows console application written in C# / .NET - Musicplayer App. 
+Windows application written in C# / .NET - Musicplayer App. 
 This app is from the C# / .NET
 # Version
 1
