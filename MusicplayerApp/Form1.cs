@@ -10,11 +10,22 @@ using System.Windows.Forms;
 
 namespace MusicplayerApp
 {
-    public partial class Form1 : Form
+    public partial class MusicPlayerApp : Form
     {
-        public Form1()
+        public MusicPlayerApp()
         {
             InitializeComponent();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            //code to close the app
+            this.Close();
         }
     }
 }

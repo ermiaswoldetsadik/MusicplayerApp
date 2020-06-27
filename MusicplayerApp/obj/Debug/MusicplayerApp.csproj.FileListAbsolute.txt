@@ -1,0 +1,15 @@
+C:\Users\ermov\gtcoding\C#\MusicplayerApp\MusicplayerApp\bin\Debug\MusicplayerApp.exe.config
+C:\Users\ermov\gtcoding\C#\MusicplayerApp\MusicplayerApp\bin\Debug\MusicplayerApp.exe
+C:\Users\ermov\gtcoding\C#\MusicplayerApp\MusicplayerApp\bin\Debug\MusicplayerApp.pdb
+C:\Users\ermov\gtcoding\C#\MusicplayerApp\MusicplayerApp\bin\Debug\Interop.WMPLib.dll
+C:\Users\ermov\gtcoding\C#\MusicplayerApp\MusicplayerApp\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\ermov\gtcoding\C#\MusicplayerApp\MusicplayerApp\obj\Debug\MusicplayerApp.csprojAssemblyReference.cache
+C:\Users\ermov\gtcoding\C#\MusicplayerApp\MusicplayerApp\obj\Debug\Interop.WMPLib.dll
+C:\Users\ermov\gtcoding\C#\MusicplayerApp\MusicplayerApp\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\ermov\gtcoding\C#\MusicplayerApp\MusicplayerApp\obj\Debug\MusicplayerApp.csproj.ResolveComReference.cache
+C:\Users\ermov\gtcoding\C#\MusicplayerApp\MusicplayerApp\obj\Debug\MusicplayerApp.MusicPlayerApp.resources
+C:\Users\ermov\gtcoding\C#\MusicplayerApp\MusicplayerApp\obj\Debug\MusicplayerApp.Properties.Resources.resources
+C:\Users\ermov\gtcoding\C#\MusicplayerApp\MusicplayerApp\obj\Debug\MusicplayerApp.csproj.GenerateResource.cache
+C:\Users\ermov\gtcoding\C#\MusicplayerApp\MusicplayerApp\obj\Debug\MusicplayerApp.csproj.CoreCompileInputs.cache
+C:\Users\ermov\gtcoding\C#\MusicplayerApp\MusicplayerApp\obj\Debug\MusicplayerApp.exe
+C:\Users\ermov\gtcoding\C#\MusicplayerApp\MusicplayerApp\obj\Debug\MusicplayerApp.pdb
