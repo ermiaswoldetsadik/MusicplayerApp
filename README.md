@@ -1,9 +1,11 @@
 # MusicplayerApp
 Windows application written in C# / .NET - Musicplayer App. 
 This app is from the C# / .NET
+
 # Version
 1
-#Usage
+
+# Usage
 Run bin/MusicplayerApp.exe
 
 
