@@ -34,11 +34,11 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.listBoxSongs = new System.Windows.Forms.ListBox();
             this.btnSelectSongs = new System.Windows.Forms.Button();
-            this.WindowsMediaPlayerMusic = new AxWMPLib.AxWindowsMediaPlayer();
+            this.axWindowsMediaPlayerMusic = new AxWMPLib.AxWindowsMediaPlayer();
             this.lblFooter = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.WindowsMediaPlayerMusic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayerMusic)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -83,6 +83,7 @@
             this.listBoxSongs.Name = "listBoxSongs";
             this.listBoxSongs.Size = new System.Drawing.Size(171, 244);
             this.listBoxSongs.TabIndex = 1;
+            this.listBoxSongs.SelectedIndexChanged += new System.EventHandler(this.listBoxSongs_SelectedIndexChanged);
             // 
             // btnSelectSongs
             // 
@@ -95,15 +96,16 @@
             this.btnSelectSongs.TabIndex = 2;
             this.btnSelectSongs.Text = "SelectSongs";
             this.btnSelectSongs.UseVisualStyleBackColor = false;
+            this.btnSelectSongs.Click += new System.EventHandler(this.btnSelectSongs_Click);
             // 
-            // WindowsMediaPlayerMusic
+            // axWindowsMediaPlayerMusic
             // 
-            this.WindowsMediaPlayerMusic.Enabled = true;
-            this.WindowsMediaPlayerMusic.Location = new System.Drawing.Point(12, 39);
-            this.WindowsMediaPlayerMusic.Name = "WindowsMediaPlayerMusic";
-            this.WindowsMediaPlayerMusic.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("WindowsMediaPlayerMusic.OcxState")));
-            this.WindowsMediaPlayerMusic.Size = new System.Drawing.Size(319, 295);
-            this.WindowsMediaPlayerMusic.TabIndex = 3;
+            this.axWindowsMediaPlayerMusic.Enabled = true;
+            this.axWindowsMediaPlayerMusic.Location = new System.Drawing.Point(12, 39);
+            this.axWindowsMediaPlayerMusic.Name = "axWindowsMediaPlayerMusic";
+            this.axWindowsMediaPlayerMusic.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayerMusic.OcxState")));
+            this.axWindowsMediaPlayerMusic.Size = new System.Drawing.Size(319, 295);
+            this.axWindowsMediaPlayerMusic.TabIndex = 3;
             // 
             // lblFooter
             // 
@@ -121,7 +123,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(522, 356);
             this.Controls.Add(this.lblFooter);
-            this.Controls.Add(this.WindowsMediaPlayerMusic);
+            this.Controls.Add(this.axWindowsMediaPlayerMusic);
             this.Controls.Add(this.btnSelectSongs);
             this.Controls.Add(this.listBoxSongs);
             this.Controls.Add(this.panel1);
@@ -132,7 +134,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.WindowsMediaPlayerMusic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayerMusic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -145,7 +147,7 @@
         private System.Windows.Forms.Label lblLogo;
         private System.Windows.Forms.ListBox listBoxSongs;
         private System.Windows.Forms.Button btnSelectSongs;
-        private AxWMPLib.AxWindowsMediaPlayer WindowsMediaPlayerMusic;
+        private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayerMusic;
         private System.Windows.Forms.Label lblFooter;
     }
 }
